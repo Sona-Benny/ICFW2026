@@ -1,0 +1,10 @@
+Family,n,Model,Validation,R2,MAE,MAPE,RMSE,RMSLE,Equation
+Aromatic hydrocarbons,266,Extra trees,nested CV (5 outer × 3 inner),0.9985 ± 0.00082,55.2 ± 19,0.006588 ± 0.0017,138.9 ± 55,0.01739 ± 0.0055,
+Acyclic alkanes,500,Huber,nested CV (5 outer × 3 inner),1 ± 4.7e-06,5.848 ± 0.52,0.0009613 ± 9.2e-05,8.737 ± 1.5,0.002311 ± 0.0013,
+Cycloalkanes,151,Huber,nested CV (5 outer × 3 inner),0.9937 ± 0.0068,120.4 ± 72,0.03844 ± 0.026,361.3 ± 2.3e+02,0.1002 ± 0.06,
+Acyclic alkenes,178,Huber,nested CV (5 outer × 3 inner),0.9998 ± 0.0001,34.18 ± 4.8,0.008873 ± 0.0017,58.12 ± 10,0.01846 ± 0.0045,
+Cycloalkenes,44,Huber,nested CV (5 outer × 3 inner),0.9956 ± 0.0047,61.26 ± 17,0.01352 ± 0.0036,86.57 ± 30,0.01906 ± 0.0066,
+Alkynes,85,Huber,nested CV (5 outer × 3 inner),0.9999 ± 4.3e-05,56.18 ± 7,0.01211 ± 0.0048,63.26 ± 7.6,0.0175 ± 0.011,
+Amines,85,Linear regression,leave-one-out,0.9867,337.7,0.07065,522.8,0.1125,818.2637 x + -1000.81
+Carboxylic acids (1 COOH),24,Linear regression,leave-one-out,0.9986,101.4,0.03022,135.8,0.05626,999.1970 x + -1292.03
+Carboxylic acids (2 COOH),20,Linear regression,leave-one-out,0.9999,13.58,0.0148,19.7,0.05461,989.8120 x + -2091.58
